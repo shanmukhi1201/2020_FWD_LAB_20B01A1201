@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<script>
+    function insert(num){
+        document.form.text.value=document.form.text.value+num;
+    }
+    function equals(){
+        var cal=document.form.text.value;
+       if(cal)
+       {
+           document.form.text.value;
+       }
+    }
+    function onClick()
+    {
+        document.form.text.value;
+    }
+</script>
+<body>
+    <style>
+        button:hover{
+            background-color: black;
+            transition-delay:1s;
+       
+        }
+        button{
+            text-decoration-color: white;
+            color:red;
+            height: 30px;
+            width: 40px;
+        }
+       
+    </style>
+    <center>
+        <form action="">
+            <h3> simple calculator</h3>
+            <input type="text">
+            <br><br>
+            <button id="text" value="1">1</button>
+            <button id="text" value="2">2</button>
+            <button id="text" value="3">3</button>
+            <button id="text" value="+">+</button>
+            <br>
+            <br>
+            <button id="text" value="4">4</button>
+            <button id="text" value="5">5</button>
+            <button id="text" value="6">6</button>
+            <button id="text" value="-">-</button>
+            <br>
+            <br>
+            <button id="text" value="7">7</button>
+            <button id="text" value="8">8</button>
+            <button id="text" value="9">9</button>
+            <button id="text" value="*">*</button>
+            <br>
+            <br>
+            <button id="text" value="0">0</button>
+            <button id="text" value="/">/</button>
+            <button id="text" value="=">=</button>
+            <button id="text" value=onClick()>ok</button>
+            <br>
+            <br>
+        </form>
+    </center>
+</body>
+</html>
